@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@function rw($px){
+
+  @return $px*100/5760 *1vw;
+}
+@function rh($px){
+
+  @return $px*100/3240 *1vh;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Microsoft YaHei";
+  background: #12202d;
+  width: rw(5760);
+  height: rh(3240);
+  overflow: hidden;
+}
+.page_root{
+  padding: rh(216) rw(100) 0;
+  display: flex;
+  justify-content:space-between;
+}
+@import "left.scss";
+@import "center.scss";
+@import "right.scss";
+
+

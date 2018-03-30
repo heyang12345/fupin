@@ -1,0 +1,63 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  font-family: "Microsoft YaHei";
+  background: #12202d;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+.page_root {
+  padding: 6.6666666667vh 1.7361111111vw 0;
+  display: flex;
+  justify-content: space-between; }
+
+.page_left {
+  width: 18.8715277778vw;
+  height: 71.6049382716vh;
+  background: #fff; }
+
+.page_center {
+  width: 57.1180555556vw;
+  height: 93.3641975309vh;
+  background: #fff; }
+
+.page_right {
+  width: 18.9236111111vw;
+  height: 71.6049382716vh;
+  /*扶贫对象统计*/
+  /*贫困人口分区统计*/
+  /*贫困户属性统计*/
+  /*主要致贫原因统计*/ }
+  .page_right .page_right_top {
+    width: 18.9236111111vw;
+    height: 21.6049382716vh;
+    border: 1px solid #10e9e6;
+    padding-top: 4.1049382716vh; }
+  .page_right .page_right_middle1 {
+    width: 18.9236111111vw;
+    height: 18.5185185185vh;
+    margin-top: 1.2345679012vh;
+    padding: 3.6419753086vh 0 1.975308642vh 0;
+    box-sizing: border-box;
+    border: 1px solid #10e9e6;
+    display: flex;
+    justify-content: space-between; }
+    .page_right .page_right_middle1 #family {
+      width: 9.4791666667vw;
+      height: 14.9382716049vh;
+      border-right: 0.0694444444vw solid #487b9a;
+      padding: 0 0.3472222222vw;
+      box-sizing: border-box; }
+    .page_right .page_right_middle1 #person {
+      width: 9.4791666667vw;
+      height: 14.9382716049vh;
+      padding: 0 0.3472222222vw;
+      box-sizing: border-box; }
+
+/*# sourceMappingURL=index.css.map */

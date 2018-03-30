@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.page_right{
+  width: rw(1090);
+  height: rh(2320);
+
+  /*扶贫对象统计*/
+  .page_right_top{
+    width: rw(1090);
+    height: rh(700);
+    border: 1px solid #10e9e6;
+    padding-top: rh(133);
+  }
+  /*贫困人口分区统计*/
+  .page_right_middle1{
+    width: rw(1090);
+    height: rh(600);
+    margin-top: rh(40);
+    padding: rh(118)0 rh(64) 0;
+    box-sizing: border-box;
+    border: 1px solid #10e9e6;
+    display: flex;
+    justify-content: space-between;
+    //各区县贫困户占比
+    #family{
+      width: rw(546);
+      height: rh(484);
+      border-right:rw(4) solid #487b9a;
+      padding: 0 rw(20);
+      box-sizing: border-box;
+    }
+    //各区县贫困人口占比
+    #person{
+      width: rw(546);
+      height:rh(484);
+      padding: 0 rw(20);
+      box-sizing: border-box;
+    }
+  }
+  /*贫困户属性统计*/
+  .page_right_middle2{
+
+  }
+  /*主要致贫原因统计*/
+  .page_right_bottom{
+
+  }
+}
+
+
+
+
